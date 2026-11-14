@@ -52,6 +52,7 @@ public class Section {
 
 
     public Section() {
+        // Required by JPA: Hibernate creates the entity through this no-argument constructor when loading rows.
     }
 
     public Section(String sectionName,

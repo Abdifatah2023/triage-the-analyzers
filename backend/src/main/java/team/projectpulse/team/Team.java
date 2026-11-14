@@ -26,6 +26,7 @@ public class Team {
 
 
     public Team() {
+        // Required by JPA: Hibernate creates the entity through this no-argument constructor when loading rows.
     }
 
     public Team(String teamName, String description, String teamWebsiteUrl) {
